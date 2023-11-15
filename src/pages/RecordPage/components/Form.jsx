@@ -2,7 +2,7 @@ import React from 'react'
 import './form.css'
 import { getData, idGenerator } from '../../../app/utils';
 import { useDispatch, useSelector } from 'react-redux';
-import { setValid } from '../../../features/Slice';
+import { setValid } from '../../../features/slice';
 
 function Form() {
   const dispatch = useDispatch()

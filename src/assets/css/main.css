@@ -85,18 +85,16 @@
     left: 210px;
 }
 
-.input-title {
+
+.input-title  {
+    right: 60px;
     width: 820px;
     height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 60px;
-}
-
-.input-title h1 {
-    font-family: 'Inter';
+    font-size: 32px;
     font-weight: 700;
     line-height: 3.6;
     color: #090A0A;

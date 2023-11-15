@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import SortIco from '../../../assets/icons/sort.png'
-import { setSort } from '../../../features/Slice'
+import { setSort } from '../../../features/slice'
 import locIcon from '../../../assets/icons/location.png'
 
 

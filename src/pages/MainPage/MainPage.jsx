@@ -45,9 +45,7 @@ function MainPage() {
           <p>Search app</p>
         </div>
         <div>
-          <div className="input-title">
-            <h1>Find in records</h1>
-          </div>
+          <div className="input-title">Find in records </div>
           <SearchInput setSearchValue={setSearchValue} list={list} searchValue={searchValue} setClick={setClick} click={click} />
         </div>
         {list && list?.length > 0 ?
