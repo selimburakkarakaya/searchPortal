@@ -1,0 +1,37 @@
+.header{
+    width: 1250px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    gap: 50px;
+}
+
+.addnewLogo img{
+    width: 150px;
+    height: 60px;
+}
+
+.returnList{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.returnList img{
+    width: 30px;
+    color: #484848;
+}
+
+.returnList h1{
+    width: auto;
+    color: #484848;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2.8;
+}

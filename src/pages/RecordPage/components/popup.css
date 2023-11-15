@@ -1,0 +1,80 @@
+.popup-con {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+}
+
+.popup {
+    width: 350px;
+    height: 150px;
+    background: #b3b2b2;
+    border-radius: 8px;
+}
+
+.closeBtn {
+    width: 98%;
+    height: 24%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.closeBtn button {
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    color: #090A0A;
+    border: 1.5px solid #090A0A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.captionError {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.caption {
+    width: 245px;
+    height: 90px;
+    position: relative;
+    bottom: 20px;
+}
+
+.caption p {
+    width: 200px;
+    height: 35px;
+    color: #090A0A;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 3.6;
+}
+
+.caption span {
+    width: 200px;
+    height: 45px;
+    color: #090A0A;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 2.4;
+}
+
+.errorBtn button {
+    padding: 8px 16px 8px 16px;
+    width: 70px;
+    height: 35px;
+    background: #FF4E78;
+    color: #FFFFFF;
+    border-radius: 48px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}

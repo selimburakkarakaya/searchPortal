@@ -1,0 +1,38 @@
+header {
+    width: 1280px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    width: 95%;
+    height: 135px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.addBtn {
+    width: 200px;
+    height: 50px;
+}
+
+.addBtn button {
+    width: 200px;
+    height: 50px;
+    background: #204080;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.1;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.addBtn button:hover{
+    background: #4F75C2;
+}
